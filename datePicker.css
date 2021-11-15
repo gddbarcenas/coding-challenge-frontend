@@ -59,7 +59,7 @@
   left: 0;
   height: calc(42% + 2px);
   width: 100%;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0.5px solid #ddd;
   position: relative;
   margin-top: -2px;
   z-index: 5;
@@ -77,7 +77,7 @@
     linear-gradient(0deg, hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.1));
   margin-top: 2px;
   border-bottom: none;
-  border-top: 0.5px solid rgba(255, 255, 255, 0.3);
+  border-top: 0.5px solid #ddd;
 }
 
 .wheel__label {
@@ -95,10 +95,29 @@
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   display: flex;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   height: 100%;
   width: 100%;
   position: absolute;
   justify-content: center;
+}
+
+#date-wheel {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex: 1;
+}
+
+#hour-wheel {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#minute-wheel {
+  display: flex;
+  align-items: center;
+  flex: 1;
 }
