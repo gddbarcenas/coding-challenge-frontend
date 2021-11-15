@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.css" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="datePicker.css">
+	<title>Conversation</title>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<span class="avatar">👽</span>
+			<span class="avatar robot">🤖</span>
+		</header>
+		<div class="main-content">
+			<main class="main-wrapper">
+				<div class="main-container">
+					<section class="main-one">
+						<header>Hudello</header>
+						<p>
+							Welcome to our frontend coding challenge. Let's start off by introducing ourselves. I'm Hudello bot.
+						<br />
+						<br />
+						<p style="font-weight: bolder;">What's your name</p>
+						</p>
+					</section>
+					<div class="text-box">
+						<input 
+							type="text" 
+							name="answer" 
+							id="answer" 
+							class="text-input"
+							placeholder="Start typing here">
+						<button 
+							class="submitBtn"
+							onclick="handleInput();">
+							<span 
+								class="circleBtn">
+								<svg 
+									viewBox="64 64 896 896" focusable="false" data-icon="right-circle"
+									width="1em" height="1em" fill="currentColor" aria-hidden="true">
+									<path
+										d="M666.7 505.5l-246-178A8 8 0 00408 334v46.9c0 10.2 4.9 19.9 13.2 25.9L566.6 512 421.2 617.2c-8.3 6-13.2 15.6-13.2 25.9V690c0 6.5 7.4 10.3 12.7 6.5l246-178c4.4-3.2 4.4-9.8 0-13z">
+									</path>
+									<path
+										d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z">
+									</path>
+								</svg></span>
+						</button>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/min/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.js"></script>
+
+	<script src="datePicker.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
